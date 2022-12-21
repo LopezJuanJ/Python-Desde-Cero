@@ -1,8 +1,8 @@
 # Explicación Del Punto 2
 El punto 2 de nuestro curso extenso de Python se enfoca en los elementos básicos del lenguaje. Estos elementos incluyen los tipos de datos, los operadores y las estructuras de control de flujo.
-<div style="text-align:center; font-size:larger;">
+
 **Tipos de datos** 
-</div>
+
  
 En Python, existen diferentes tipos de datos que se pueden utilizar para almacenar y manipular información. Algunos de los tipos de datos más comunes son:
 
