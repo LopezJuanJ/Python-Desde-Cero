@@ -56,7 +56,7 @@ También es posible agregar un bloque de código adicional que se ejecutará si 
 *else:*
     *bloque de código*
 
-**for**
+**for**  
 La estructura de control de flujo for se utiliza para iterar sobre una secuencia de elementos, como una lista o una cadena de caracteres. La sintaxis básica de una estructura for es la siguiente:
 
 *for variable in secuencia:*
@@ -64,7 +64,7 @@ La estructura de control de flujo for se utiliza para iterar sobre una secuencia
 
 La variable toma cada uno de los elementos de la secuencia en orden y se ejecuta el bloque de código para cada uno de ellos.
 
-**while**
+**while**  
 La estructura de control de flujo while se utiliza para ejecutar un bloque de código mientras se cumpla una condición. La sintaxis básica de una estructura while es la siguiente:
 
 *while condición:*
