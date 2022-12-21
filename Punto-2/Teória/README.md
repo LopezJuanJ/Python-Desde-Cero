@@ -16,7 +16,7 @@ En Python, existen diferentes tipos de datos que se pueden utilizar para almacen
 
 **Conjuntos:** Los conjuntos son colecciones de elementos únicos que no tienen orden. Se pueden utilizar para eliminar elementos duplicados o para realizar operaciones matemáticas como la unión o la intersección. Los conjuntos se definen con llaves ({ }).
 
-**Operadores y expresiones**
+**Operadores y expresiones**  
 Los operadores son símbolos que se utilizan para realizar operaciones matemáticas o lógicas. Algunos de los operadores más comunes en Python son:
 
 **Aritméticos:** + (suma), - (resta), ** (multiplicación), / (división), // (división entera), % (módulo)
