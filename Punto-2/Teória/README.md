@@ -44,31 +44,31 @@ Las estructuras de control de flujo son elementos de programación que permiten 
 **if**  
 La estructura de control de flujo if se utiliza para ejecutar un bloque de código solo si se cumple una condición específica. La sintaxis básica de una estructura if es la siguiente:
 
-*if condición:*
-    *bloque de código*
+*if condición:*  
+    *bloque de código*  
 
 Si la condición se evalúa como verdadera, se ejecuta el bloque de código. Si la condición se evalúa como falsa, se salta el bloque de código y se sigue con la ejecución del programa.
 
 También es posible agregar un bloque de código adicional que se ejecutará si la condición se evalúa como falsa, utilizando la palabra clave else:
 
-*if condición:*
-    *bloque de código*
-*else:*
-    *bloque de código*
+*if condición:*  
+    *bloque de código*  
+*else:*  
+    *bloque de código*  
 
 **for**  
 La estructura de control de flujo for se utiliza para iterar sobre una secuencia de elementos, como una lista o una cadena de caracteres. La sintaxis básica de una estructura for es la siguiente:
 
-*for variable in secuencia:*
-    *bloque de código*
+*for variable in secuencia:*  
+    *bloque de código*  
 
 La variable toma cada uno de los elementos de la secuencia en orden y se ejecuta el bloque de código para cada uno de ellos.
 
 **while**  
 La estructura de control de flujo while se utiliza para ejecutar un bloque de código mientras se cumpla una condición. La sintaxis básica de una estructura while es la siguiente:
 
-*while condición:*
-    *bloque de código*
+*while condición:*  
+    *bloque de código*  
     
 # Preguntas realizadas
 hazme un resumen estructurado de Tipos de datos punto 2 
