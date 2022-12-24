@@ -27,7 +27,7 @@ saludar("Juan")
 resultado = sumar(3, 4)
 print(resultado)  # Imprime 7
 ```
-
+# Modulos
 - Los módulos son archivos que contienen código Python y pueden ser importados en otros programas para utilizar su funcionalidad. Por ejemplo, podríamos tener un archivo llamado mi_modulo.py con el siguiente contenido:
 
 ```python
