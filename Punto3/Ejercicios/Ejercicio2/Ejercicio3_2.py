@@ -38,3 +38,16 @@ def  contar_vocales(palabra):
 def invertir_cadena(cadena):
     #La notación [::-1] no da la cadena al reves 
     return cadena[::-1]
+
+def es_palindromo(cadena):
+    resultado = True
+    ##Ojo. es Key sensitive
+    #if cadena == cadena[::-1]:
+    
+    #Con el .lower() hago que se ponga en minuscula
+    #para que asi sepa que son iguales 
+    if cadena.lower() == cadena.lower()[::-1]:
+        resultado = True
+    else:
+        resultado = False
+    return resultado
