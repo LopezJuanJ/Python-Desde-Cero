@@ -1,3 +1,4 @@
-import Ejercicio3_2 as obj1
+import Ejercicio3_2 as analisis
 
-print(obj1.contar_vocales("Juan Javier"))
+print(analisis.contar_vocales("Juan Javier"))
+print(analisis.invertir_cadena("Hola mundo"))

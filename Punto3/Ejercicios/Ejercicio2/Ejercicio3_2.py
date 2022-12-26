@@ -34,3 +34,7 @@ def  contar_vocales(palabra):
     #Para concatenar hay que decir el tipo de la variable
     resultado_conso = "consonantes: " + str(contador_consonates)
     return resultado_a,  resultado_e, resultado_i, resultado_o, resultado_u, resultado_conso
+
+def invertir_cadena(cadena):
+    #La notación [::-1] no da la cadena al reves 
+    return cadena[::-1]
