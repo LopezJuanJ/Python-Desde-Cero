@@ -49,6 +49,8 @@ f.write('Añadiendo más contenido al final del archivo.\n')
 f.close()
 ```
 
+# Excepciones 
+
 - Cuando trabajas con archivos en Python, es importante tener en cuenta que el sistema operativo puede generar errores al tratar de acceder o manipular un archivo. Por ejemplo, puede haber problemas al intentar abrir un archivo que no existe, o al intentar escribir en un archivo que no tiene permisos de escritura.
 
 - Para manejar estos errores, puedes usar sentencias try y except para capturar las excepciones que puedan ocurrir y tomar medidas para manejarlas.
