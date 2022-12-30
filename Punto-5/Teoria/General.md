@@ -1,3 +1,5 @@
+# Ficheros
+
 - En Python, puedes trabajar con archivos de varias maneras, como apertura, lectura y escritura de archivos, así como el manejo de excepciones.
 
 - Para abrir un archivo en Python, puedes usar la función open(), que toma como argumentos el nombre del archivo y el modo en el que deseas abrirlo. Los modos más comunes son 'r' para leer, 'w' para escribir y 'a' para añadir (agregar) contenido al final del archivo.
@@ -78,3 +80,6 @@ with open('mi_archivo.txt', 'r') as f:
     contenido = f.read()
 ```
 - Espero que estos ejemplos te hayan ayudado a entender cómo trabajar con archivos en Python, incluyendo la apertura, lectura y escritura de archivos, y el manejo de excepciones. Si tienes alguna pregunta o necesitas más ayuda, no dudes en preguntar.
+
+# Pregunta
+- Hazme una explicacion con ejemplos de Trabajo con archivos: Apertura, lectura y escritura de archivos, manejo de excepciones. en python
