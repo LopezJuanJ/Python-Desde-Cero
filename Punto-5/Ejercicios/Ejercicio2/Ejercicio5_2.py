@@ -20,3 +20,5 @@ class Usuario_Gestion:
         for linea in self.archivo:
             contador = contador + 1
         return contador
+    def cerrar_fichero(self):
+        self.archivo.close()
