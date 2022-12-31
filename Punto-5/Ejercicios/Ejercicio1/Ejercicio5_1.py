@@ -2,19 +2,17 @@ class Gestion:
     def __init__(self, nombre, modo):
         self.nombre = nombre
         self.modo = modo
+        #Defino archivo para poder usarlo mas veces
+        self.archivo = None
 
     def abrir(self):
-        f = open(self.nombre, self.modo)
-        return f
+        self.archivo = open(self.nombre, self.modo)
 
     def linea_a_linea(self):
-        archivo = open(self.nombre, self.modo)
-        for linea in archivo:
+        for linea in self.archivo:
             print(linea)
 
     def cerrar(self):
-        archivo = open(self.nombre, self.modo)
-        archivo.close() 
-
+        self.archivo.close()
     
     
