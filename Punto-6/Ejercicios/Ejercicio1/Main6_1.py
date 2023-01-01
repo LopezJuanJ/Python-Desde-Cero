@@ -1,6 +1,5 @@
 import Ejercicio6_1
 
-p1 = Ejercicio6_1.Remplazar(None, None, None)
+p1 = Ejercicio6_1.Remplazar
 
-p1.pedir_palabra()
-print(p1.generar_filtro())
+p1.filtra()
