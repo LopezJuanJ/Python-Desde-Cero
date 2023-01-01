@@ -9,10 +9,17 @@ class Remplazar:
         self.texto = input("Dame Una Cadena De Texto: ")
     
     def pedir_palabra(self):
-        new_palabra = input("Dame Una Palabra/Numero De Filtro: ")
+        new_palabra = input("Dame Una letra/numero (especifica mayus y minus): ")
         self.palabra = new_palabra
     
     def generar_filtro(self):
-        patron = "r\b" + re.escape(self.palabra) + "r\w+"
-        self.filtro = patron
-        print(self.filtro)
+        parte1 = "r"
+        parte2 = "\""
+        parte3 = "\\b"
+        corchete1 = "["
+        corchete2 = "]"
+        parte5 = self.palabra
+        parte6 = "\\w+"
+
+        res = parte1 + parte2 + parte3 + corchete1+ parte5 +corchete2 + parte6 + parte2
+        return res
